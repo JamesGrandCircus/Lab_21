@@ -1,0 +1,21 @@
+﻿@model WebApplication3.Models.CoffeeStore
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Are you Ready to Order?</h2>
+<p>As per our ideology, we only sell Dark Roast Coffees</p><b></b>
+<p>Please Choose from the List Below:</p><b></b>
+<ul>
+    <li>Lavazza Gran Espresso Whole Bean Coffee Blend</li>
+    <li>Peet's Coffee Major Dickason's Blend</li>
+    <li>Seattles Best Ground Dark & Intense Coffee</li>
+    <li>Market Espresso Whole Bean Coffee</li>
+</ul>
+@*<form method="post" action="UserRegistration">
+    <button type="submit">Continue</button>
+</form>*@
+
+@Html.ActionLink("User Registration", "UserRegistration")
+
+<!--<button type="button">Click when Ready</button>-->
